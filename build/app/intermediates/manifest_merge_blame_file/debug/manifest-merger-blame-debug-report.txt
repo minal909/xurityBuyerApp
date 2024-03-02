@@ -1,0 +1,629 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xuriti.app"
+4    android:versionCode="8"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:2:5-66
+15-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:2:22-64
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-68
+16-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Permissions options for the `notification` group -->
+17-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-79
+17-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+18-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-77
+18-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:22-74
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-80
+19-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-77
+20
+21    <queries>
+21-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:15
+22        <intent>
+22-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:18
+23            <action android:name="android.intent.action.GET_CONTENT" />
+23-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-72
+23-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:13:21-69
+24
+25            <data android:mimeType="*/*" />
+25-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+25-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:19-41
+26        </intent>
+27    </queries>
+28
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+29-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+30    <uses-permission android:name="android.permission.VIBRATE" />
+30-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-66
+30-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-63
+31    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+31-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+31-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+32    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+32-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+32-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+33    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+33-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:5-82
+33-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:28:22-79
+34
+35    <permission
+35-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+36        android:name="com.xuriti.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+36-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+37        android:protectionLevel="signature" />
+37-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+38
+39    <uses-permission android:name="com.xuriti.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+39-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+39-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+40
+41    <application
+41-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:3:5-23:19
+42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+42-->[androidx.core:core:1.10.1] /home/ubuntu/.gradle/caches/transforms-3/9b58b301c0ff37d4e799b76b47efa465/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+43        android:debuggable="true"
+44        android:icon="@mipmap/ic_launcher"
+44-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:3:41-75
+45        android:label="Xuriti" >
+45-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:3:18-40
+46        <activity
+46-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:9-19:20
+47            android:name="com.xuriti.app.MainActivity"
+47-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:19-61
+48            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+48-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:152-302
+49            android:exported="true"
+49-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:62-85
+50            android:hardwareAccelerated="true"
+50-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:303-337
+51            android:launchMode="singleTop"
+51-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:86-116
+52            android:theme="@style/LaunchTheme"
+52-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:117-151
+53            android:windowSoftInputMode="adjustResize" >
+53-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:4:338-380
+54
+55            <!--
+56                 Specifies an Android theme to apply to this Activity as soon as
+57                 the Android process has started. This theme is visible to the user
+58                 while the Flutter UI initializes. After that, this theme continues
+59                 to determine the Window background behind the Flutter UI.
+60            -->
+61            <meta-data
+61-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:9:13-120
+62                android:name="io.flutter.embedding.android.NormalTheme"
+62-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:9:24-79
+63                android:resource="@style/NormalTheme" />
+63-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:9:80-117
+64
+65            <intent-filter>
+65-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:10:13-13:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:11:17-68
+66-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:11:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:12:17-76
+68-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:12:27-74
+69            </intent-filter>
+70            <intent-filter>
+70-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:15:13-18:29
+71                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+71-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:16:17-69
+71-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:16:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:17-76
+73-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:27-73
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+80-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:22:9-72
+81            android:name="flutterEmbedding"
+81-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:22:20-51
+82            android:value="2" />
+82-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:22:52-69
+83
+84        <service
+84-->[:firebase_database] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:firebase_database] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:34:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:54:13-37
+88            <meta-data
+88-->[:firebase_database] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+89-->[:firebase_database] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-127
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:firebase_database] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_database/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+91            <meta-data
+91-->[:cloud_firestore] /home/ubuntu/Downloads/XuritiBuyerApp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+92-->[:cloud_firestore] /home/ubuntu/Downloads/XuritiBuyerApp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:cloud_firestore] /home/ubuntu/Downloads/XuritiBuyerApp/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+94            <meta-data
+94-->[:firebase_auth] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+95-->[:firebase_auth] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_auth] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+97            <meta-data
+97-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-40:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+98-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:17-128
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:17-82
+100            <meta-data
+100-->[:firebase_core] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+101-->[:firebase_core] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[:firebase_core] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:55:13-57:85
+104                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+104-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:56:17-119
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:57:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:69:13-71:85
+107                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+107-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:70:17-109
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:71:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-database:20.2.1] /home/ubuntu/.gradle/caches/transforms-3/1f5d972360e333ede4aadd8f737fda41/transformed/jetified-firebase-database-20.2.1/AndroidManifest.xml:31:13-33:85
+110                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+110-->[com.google.firebase:firebase-database:20.2.1] /home/ubuntu/.gradle/caches/transforms-3/1f5d972360e333ede4aadd8f737fda41/transformed/jetified-firebase-database-20.2.1/AndroidManifest.xml:32:17-109
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-database:20.2.1] /home/ubuntu/.gradle/caches/transforms-3/1f5d972360e333ede4aadd8f737fda41/transformed/jetified-firebase-database-20.2.1/AndroidManifest.xml:33:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-firestore:24.6.0] /home/ubuntu/.gradle/caches/transforms-3/778b5eb0d5c0aab2159d267967ad6d43/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:19:13-21:85
+113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+113-->[com.google.firebase:firebase-firestore:24.6.0] /home/ubuntu/.gradle/caches/transforms-3/778b5eb0d5c0aab2159d267967ad6d43/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:20:17-111
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-firestore:24.6.0] /home/ubuntu/.gradle/caches/transforms-3/778b5eb0d5c0aab2159d267967ad6d43/transformed/jetified-firebase-firestore-24.6.0/AndroidManifest.xml:21:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-datatransport:18.1.7] /home/ubuntu/.gradle/caches/transforms-3/14f792cd7dd438f69946200dcab44356/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+116                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+116-->[com.google.firebase:firebase-datatransport:18.1.7] /home/ubuntu/.gradle/caches/transforms-3/14f792cd7dd438f69946200dcab44356/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-datatransport:18.1.7] /home/ubuntu/.gradle/caches/transforms-3/14f792cd7dd438f69946200dcab44356/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-iid:21.1.0] /home/ubuntu/.gradle/caches/transforms-3/65b0797296480aa2add8747858e395c5/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+119                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+119-->[com.google.firebase:firebase-iid:21.1.0] /home/ubuntu/.gradle/caches/transforms-3/65b0797296480aa2add8747858e395c5/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-iid:21.1.0] /home/ubuntu/.gradle/caches/transforms-3/65b0797296480aa2add8747858e395c5/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+121            <meta-data
+121-->[com.google.firebase:firebase-installations:17.1.3] /home/ubuntu/.gradle/caches/transforms-3/d29ca8de0f2458179d91d5c5af83003d/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+122                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+122-->[com.google.firebase:firebase-installations:17.1.3] /home/ubuntu/.gradle/caches/transforms-3/d29ca8de0f2458179d91d5c5af83003d/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.firebase:firebase-installations:17.1.3] /home/ubuntu/.gradle/caches/transforms-3/d29ca8de0f2458179d91d5c5af83003d/transformed/jetified-firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+124        </service>
+125        <service
+125-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-19:72
+126            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+126-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-107
+127            android:exported="false"
+127-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+128            android:permission="android.permission.BIND_JOB_SERVICE" />
+128-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-69
+129        <service
+129-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-26:19
+130            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+130-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-97
+131            android:exported="false" >
+131-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+132            <intent-filter>
+132-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+133-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+133-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+134            </intent-filter>
+135        </service>
+136
+137        <receiver
+137-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-35:20
+138            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+138-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-98
+139            android:exported="true"
+139-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-36
+140            android:permission="com.google.android.c2dm.permission.SEND" >
+140-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-73
+141            <intent-filter>
+141-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+142                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+142-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+142-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+143            </intent-filter>
+144        </receiver>
+145
+146        <provider
+146-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:9-47:38
+147            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+147-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:44:13-102
+148            android:authorities="com.xuriti.app.flutterfirebasemessaginginitprovider"
+148-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:45:13-88
+149            android:exported="false"
+149-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:46:13-37
+150            android:initOrder="99" />
+150-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:47:13-35
+151        <provider
+151-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+152            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+152-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+153            android:authorities="com.xuriti.app.flutter.image_provider"
+153-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+154            android:exported="false"
+154-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+155            android:grantUriPermissions="true" >
+155-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+156            <meta-data
+156-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+157                android:name="android.support.FILE_PROVIDER_PATHS"
+157-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+158                android:resource="@xml/flutter_image_picker_file_paths" />
+158-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+159        </provider>
+160
+161        <receiver
+161-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-18:40
+162            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+162-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-91
+163            android:exported="false" />
+163-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+164        <receiver
+164-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-21:40
+165            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+165-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-97
+166            android:exported="false" />
+166-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+167        <receiver
+167-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-31:20
+168            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+168-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-101
+169            android:exported="false" >
+169-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-37
+170            <intent-filter>
+170-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-30:29
+171                <action android:name="android.intent.action.BOOT_COMPLETED" />
+171-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:17-79
+171-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:26:25-76
+172                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+172-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:17-84
+172-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:27:25-81
+173                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+173-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-82
+173-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-79
+174                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+174-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-82
+174-->[:flutter_local_notifications] /home/ubuntu/Downloads/XuritiBuyerApp/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-79
+175            </intent-filter>
+176        </receiver>
+177
+178        <activity
+178-->[:url_launcher_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-13:74
+179            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+179-->[:url_launcher_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+180            android:exported="false"
+180-->[:url_launcher_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+181            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+181-->[:url_launcher_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-71
+182
+183        <provider
+183-->[:open_file_safe] /home/ubuntu/Downloads/XuritiBuyerApp/build/open_file_safe/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-22:20
+184            android:name="com.crazecoder.openfile.FileProvider"
+184-->[:open_file_safe] /home/ubuntu/Downloads/XuritiBuyerApp/build/open_file_safe/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-64
+185            android:authorities="com.xuriti.app.fileProvider.com.crazecoder.openfile"
+185-->[:open_file_safe] /home/ubuntu/Downloads/XuritiBuyerApp/build/open_file_safe/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-88
+186            android:exported="false"
+186-->[:open_file_safe] /home/ubuntu/Downloads/XuritiBuyerApp/build/open_file_safe/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+187            android:grantUriPermissions="true" >
+187-->[:open_file_safe] /home/ubuntu/Downloads/XuritiBuyerApp/build/open_file_safe/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-47
+188            <meta-data
+188-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+189                android:name="android.support.FILE_PROVIDER_PATHS"
+189-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+190                android:resource="@xml/filepaths" />
+190-->[:image_picker_android] /home/ubuntu/Downloads/XuritiBuyerApp/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+191        </provider>
+192
+193        <receiver
+193-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:31:9-38:20
+194            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+194-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:32:13-78
+195            android:exported="true"
+195-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:33:13-36
+196            android:permission="com.google.android.c2dm.permission.SEND" >
+196-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:34:13-73
+197            <intent-filter>
+197-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:32:13-34:29
+198                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+198-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:17-81
+198-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:25-78
+199            </intent-filter>
+200        </receiver>
+201        <!--
+202             FirebaseMessagingService performs security checks at runtime,
+203             but set to not exported to explicitly avoid allowing another app to call it.
+204        -->
+205        <service
+205-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:44:9-51:19
+206            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+206-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:45:13-82
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:46:13-43
+208            android:exported="false" >
+208-->[com.google.firebase:firebase-messaging:23.1.2] /home/ubuntu/.gradle/caches/transforms-3/49dd3993021f3cb9ad4529fb9ab6c674/transformed/jetified-firebase-messaging-23.1.2/AndroidManifest.xml:47:13-37
+209            <intent-filter android:priority="-500" >
+209-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:29
+210                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+210-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-78
+210-->[:firebase_messaging] /home/ubuntu/Downloads/XuritiBuyerApp/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-75
+211            </intent-filter>
+212        </service>
+213
+214        <activity
+214-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:29:9-46:20
+215            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+215-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:30:13-80
+216            android:excludeFromRecents="true"
+216-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:31:13-46
+217            android:exported="true"
+217-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:32:13-36
+218            android:launchMode="singleTask"
+218-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:33:13-44
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+219-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:34:13-72
+220            <intent-filter>
+220-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:35:13-45:29
+221                <action android:name="android.intent.action.VIEW" />
+221-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+221-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+222
+223                <category android:name="android.intent.category.DEFAULT" />
+223-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:17-76
+223-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:27-73
+224                <category android:name="android.intent.category.BROWSABLE" />
+224-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+224-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+225
+226                <data
+226-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+227                    android:host="firebase.auth"
+228                    android:path="/"
+229                    android:scheme="genericidp" />
+230            </intent-filter>
+231        </activity>
+232        <activity
+232-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:47:9-64:20
+233            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+233-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:48:13-79
+234            android:excludeFromRecents="true"
+234-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:49:13-46
+235            android:exported="true"
+235-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:50:13-36
+236            android:launchMode="singleTask"
+236-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:51:13-44
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+237-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:52:13-72
+238            <intent-filter>
+238-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:53:13-63:29
+239                <action android:name="android.intent.action.VIEW" />
+239-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:17-69
+239-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:36:25-66
+240
+241                <category android:name="android.intent.category.DEFAULT" />
+241-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:17-76
+241-->/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/AndroidManifest.xml:17:27-73
+242                <category android:name="android.intent.category.BROWSABLE" />
+242-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:17-78
+242-->[com.google.firebase:firebase-auth:22.0.0] /home/ubuntu/.gradle/caches/transforms-3/b7c6be229de8976f1b49e971e090e09b/transformed/jetified-firebase-auth-22.0.0/AndroidManifest.xml:39:27-75
+243
+244                <data
+244-->[:file_picker] /home/ubuntu/Downloads/XuritiBuyerApp/build/file_picker/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-44
+245                    android:host="firebase.auth"
+246                    android:path="/"
+247                    android:scheme="recaptcha" />
+248            </intent-filter>
+249        </activity>
+250        <activity
+250-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:23:9-27:75
+251            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+251-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:24:13-93
+252            android:excludeFromRecents="true"
+252-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:25:13-46
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:26:13-37
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+254-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:27:13-72
+255        <!--
+256            Service handling Google Sign-In user revocation. For apps that do not integrate with
+257            Google Sign-In, this service will never be started.
+258        -->
+259        <service
+259-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:33:9-37:51
+260            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+260-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:34:13-89
+261            android:exported="true"
+261-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:35:13-36
+262            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+262-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:36:13-107
+263            android:visibleToInstantApps="true" />
+263-->[com.google.android.gms:play-services-auth:20.5.0] /home/ubuntu/.gradle/caches/transforms-3/d5237821df3901dc3d39641d2b143295/transformed/jetified-play-services-auth-20.5.0/AndroidManifest.xml:37:13-48
+264
+265        <activity
+265-->[com.google.android.gms:play-services-base:18.1.0] /home/ubuntu/.gradle/caches/transforms-3/4e43625ca27b2e24d34031710ef9d381/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+266            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+266-->[com.google.android.gms:play-services-base:18.1.0] /home/ubuntu/.gradle/caches/transforms-3/4e43625ca27b2e24d34031710ef9d381/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-base:18.1.0] /home/ubuntu/.gradle/caches/transforms-3/4e43625ca27b2e24d34031710ef9d381/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+268            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+268-->[com.google.android.gms:play-services-base:18.1.0] /home/ubuntu/.gradle/caches/transforms-3/4e43625ca27b2e24d34031710ef9d381/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+269
+270        <provider
+270-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:25:9-30:39
+271            android:name="com.google.firebase.provider.FirebaseInitProvider"
+271-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:26:13-77
+272            android:authorities="com.xuriti.app.firebaseinitprovider"
+272-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:27:13-72
+273            android:directBootAware="true"
+273-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:28:13-43
+274            android:exported="false"
+274-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:29:13-37
+275            android:initOrder="100" />
+275-->[com.google.firebase:firebase-common:20.3.2] /home/ubuntu/.gradle/caches/transforms-3/7d53432745ca826f5c2020937521d477/transformed/jetified-firebase-common-20.3.2/AndroidManifest.xml:30:13-36
+276
+277        <meta-data
+277-->[com.google.android.gms:play-services-basement:18.2.0] /home/ubuntu/.gradle/caches/transforms-3/441d84611bcc5e4958a362bc27906329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+278            android:name="com.google.android.gms.version"
+278-->[com.google.android.gms:play-services-basement:18.2.0] /home/ubuntu/.gradle/caches/transforms-3/441d84611bcc5e4958a362bc27906329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+279            android:value="@integer/google_play_services_version" />
+279-->[com.google.android.gms:play-services-basement:18.2.0] /home/ubuntu/.gradle/caches/transforms-3/441d84611bcc5e4958a362bc27906329/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+280
+281        <provider
+281-->[io.sentry:sentry-android-core:6.21.0] /home/ubuntu/.gradle/caches/transforms-3/b3daea1ae4fcaf7c8feb7b2f2c688b14/transformed/jetified-sentry-android-core-6.21.0/AndroidManifest.xml:16:9-20:39
+282            android:name="io.sentry.android.core.SentryPerformanceProvider"
+282-->[io.sentry:sentry-android-core:6.21.0] /home/ubuntu/.gradle/caches/transforms-3/b3daea1ae4fcaf7c8feb7b2f2c688b14/transformed/jetified-sentry-android-core-6.21.0/AndroidManifest.xml:17:13-76
+283            android:authorities="com.xuriti.app.SentryPerformanceProvider"
+283-->[io.sentry:sentry-android-core:6.21.0] /home/ubuntu/.gradle/caches/transforms-3/b3daea1ae4fcaf7c8feb7b2f2c688b14/transformed/jetified-sentry-android-core-6.21.0/AndroidManifest.xml:18:13-77
+284            android:exported="false"
+284-->[io.sentry:sentry-android-core:6.21.0] /home/ubuntu/.gradle/caches/transforms-3/b3daea1ae4fcaf7c8feb7b2f2c688b14/transformed/jetified-sentry-android-core-6.21.0/AndroidManifest.xml:19:13-37
+285            android:initOrder="200" />
+285-->[io.sentry:sentry-android-core:6.21.0] /home/ubuntu/.gradle/caches/transforms-3/b3daea1ae4fcaf7c8feb7b2f2c688b14/transformed/jetified-sentry-android-core-6.21.0/AndroidManifest.xml:20:13-36
+286
+287        <uses-library
+287-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+288            android:name="androidx.window.extensions"
+288-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+289            android:required="false" />
+289-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+290        <uses-library
+290-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+291            android:name="androidx.window.sidecar"
+291-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+292            android:required="false" />
+292-->[androidx.window:window:1.0.0-beta04] /home/ubuntu/.gradle/caches/transforms-3/898cbb911d0e06d2c9dea240545edf75/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+293
+294        <provider
+294-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+295            android:name="androidx.startup.InitializationProvider"
+295-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:25:13-67
+296            android:authorities="com.xuriti.app.androidx-startup"
+296-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:26:13-68
+297            android:exported="false" >
+297-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:27:13-37
+298            <meta-data
+298-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+299                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+299-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+300                android:value="androidx.startup" />
+300-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/ubuntu/.gradle/caches/transforms-3/d628cfc50731ba62c9406f51e9bbf6c9/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+301            <meta-data
+301-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+302                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+302-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+303                android:value="androidx.startup" />
+303-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+304        </provider>
+305
+306        <service
+306-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+307            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+307-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+308            android:exported="false" >
+308-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+309            <meta-data
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+310                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+310-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+311                android:value="cct" />
+311-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/742d7e688c2d0bef856339fa4c058687/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+312        </service>
+313        <service
+313-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+314            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+314-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+315            android:exported="false"
+315-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+316            android:permission="android.permission.BIND_JOB_SERVICE" >
+316-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+317        </service>
+318
+319        <receiver
+319-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+320            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+320-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+321            android:exported="false" />
+321-->[com.google.android.datatransport:transport-runtime:3.1.8] /home/ubuntu/.gradle/caches/transforms-3/9843b22f985afa7011930a79ef3f5992/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+322        <receiver
+322-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+323            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+323-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+324            android:directBootAware="false"
+324-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+325            android:enabled="true"
+325-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+326            android:exported="true"
+326-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+327            android:permission="android.permission.DUMP" >
+327-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+328            <intent-filter>
+328-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+329                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+329-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+329-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+330            </intent-filter>
+331            <intent-filter>
+331-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+332                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+332-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+333            </intent-filter>
+334            <intent-filter>
+334-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+335                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+335-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+336            </intent-filter>
+337            <intent-filter>
+337-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+338                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+338-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/ubuntu/.gradle/caches/transforms-3/a402ea7c5d1e40442a95abfa871a072d/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+339            </intent-filter>
+340        </receiver> <!-- The activities will be merged into the manifest of the hosting app. -->
+341        <activity
+341-->[com.google.android.play:core-common:2.0.2] /home/ubuntu/.gradle/caches/transforms-3/1e9683f104f31de4280eab5f7c3f87e8/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:14:9-18:65
+342            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+342-->[com.google.android.play:core-common:2.0.2] /home/ubuntu/.gradle/caches/transforms-3/1e9683f104f31de4280eab5f7c3f87e8/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:15:13-93
+343            android:exported="false"
+343-->[com.google.android.play:core-common:2.0.2] /home/ubuntu/.gradle/caches/transforms-3/1e9683f104f31de4280eab5f7c3f87e8/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:16:13-37
+344            android:stateNotNeeded="true"
+344-->[com.google.android.play:core-common:2.0.2] /home/ubuntu/.gradle/caches/transforms-3/1e9683f104f31de4280eab5f7c3f87e8/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:17:13-42
+345            android:theme="@style/Theme.PlayCore.Transparent" />
+345-->[com.google.android.play:core-common:2.0.2] /home/ubuntu/.gradle/caches/transforms-3/1e9683f104f31de4280eab5f7c3f87e8/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:18:13-62
+346    </application>
+347
+348</manifest>

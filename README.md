@@ -1,0 +1,2 @@
+# XuritiBuyerApp
+Xuriti Buyer App 

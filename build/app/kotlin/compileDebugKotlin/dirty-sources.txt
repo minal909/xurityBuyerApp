@@ -1,0 +1,1 @@
+/home/ubuntu/Downloads/XuritiBuyerApp/android/app/src/main/kotlin/com/xuriti/app/MainActivity.kt
